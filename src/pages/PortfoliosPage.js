@@ -3,7 +3,7 @@ import Tittle from '../components/Tittle';
 import Categories from '../components/Categories';
 import MenuItems from '../components/MenuItems';
 import portfolios from '../components/Allportfolios';
-import category from '../components/Categories';
+// import category from '../components/Categories';
 
 const allCategories = ['All', ...new Set(portfolios.map(Item => Item.category))];
 
@@ -15,6 +15,7 @@ function PortfoliosPage() {
     const filter = (category) => {
         if (category === 'All') {
             setMenuItems(portfolios)
+            setCategories();
             return;
         }
     const filterData = portfolios.filter((Item)=>{

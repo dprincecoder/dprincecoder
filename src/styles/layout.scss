@@ -54,7 +54,7 @@
 .nav-btn {
   position: absolute;
   z-index: 10;
-  right: 10%;
+  right: 3%;
   top: 5%;
   width: 5rem;
   height: 5rem;
@@ -108,6 +108,7 @@
   }
   @media screen and (max-width: 1000px) {
     display: block;
+    position: fixed;
     .circle{
         display: block;
     }
