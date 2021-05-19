@@ -1,6 +1,6 @@
 import React from 'react';
 import about from '../img/prince4.png';
-import MyCv from '../mycv.pdf'
+import MyCv from '../components/myCv.pdf';
 
 
 function ImageSection() {
