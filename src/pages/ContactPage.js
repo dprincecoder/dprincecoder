@@ -28,9 +28,9 @@ function ContactPage() {
                 <h3 className="comon">Want to hire me? then leave a massage, i will be in touch</h3>
                 
                 <form className="form" name="contact" netlify>
-                    <input type="text" className="name" placeholder="Enter name"/>
-                    <input type="text" className="name" placeholder="Enter email" />
-                    <textarea name="massage" id="" cols="30" rows="10" className="name massage" placeholder="drop a massage"></textarea>
+                    <input type="text" name="name"className="name" placeholder="Enter name"/>
+                    <input type="text" name="email" className="name" placeholder="Enter email" />
+                    <textarea name="massage" id="massage" cols="30" rows="10" className="name massage" placeholder="drop a massage"></textarea>
                  <button type="submit" className="btn-n">SEND</button>
                 </form>
            </div>
