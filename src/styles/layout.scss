@@ -1,0 +1,120 @@
+.App {
+  .sidebar {
+    width: 16%;
+    height: 100vh;
+    background-color: #191d2b;
+    position: fixed;
+    z-index: 12;
+    border-right: 1px solid #2e344e;
+    transition: all 0.4s ease-in-out;
+    transform-origin: left;
+    @media screen and (max-width: 1000px) {
+      transform: translateX(-100%);
+      width: 30%;
+    }
+    @media screen and (max-width: 410px) {
+      transform: translateX(-100%);
+      width: 50%;
+    }
+  }
+  .nav-toggle {
+    @media screen and (max-width: 1000px) {
+      transform: translateX(0);
+      width: 30%;
+    }
+  }
+
+  .main-content {
+    width: 84%;
+    margin-left: 16%;
+    background-color: #10121b;
+    display: grid;
+    min-height: 100vh;
+    position: relative;
+    .content {
+      margin: 4rem 13rem;
+      @media screen and (max-width: 1100px) {
+        margin: 2rem 8rem;
+      }
+      @media screen and (max-width: 1400px) {
+        margin: 3rem 8rem;
+      }
+      @media screen and (max-width: 710px) {
+        margin: 2rem 5rem;
+      }
+    }
+
+    @media screen and (max-width: 1000px) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+.nav-btn {
+  position: absolute;
+  z-index: 10;
+  right: 10%;
+  top: 5%;
+  width: 5rem;
+  height: 5rem;
+  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  .circle {
+    width: 55%;
+    height: 2.5rem;
+    border: 2px solid palegreen;
+    border-radius: 50%;
+    display: none;
+  }
+  .lines1 {
+    height: 0.3rem;
+    width: 50%;
+    background-color: #037fff;
+    display: none;
+    transform: translate(50%, 120%);
+    pointer-events: none;
+    border-radius: 2px 3rem;
+    &:not(:last-child) {
+      margin-bottom: 0.4rem;
+    }
+  }
+  .lines2 {
+    height: 0.3rem;
+    width: 50%;
+    background-color: rgb(247, 16, 93);
+    display: none;
+    transform: translate(50%, 80%);
+    pointer-events: none;
+    border-radius: 3rem 2px;
+    &:not(:last-child) {
+      margin-bottom: 0.4rem;
+    }
+  }
+  .lines3 {
+    height: 0.3rem;
+    width: 50%;
+    background-color: rgb(255, 132, 32);
+    display: none;
+    pointer-events: none;
+    transform: translate(50%, 70%);
+    border-radius: 2px 2rem 1rem 3rem;
+    &:not(:last-child) {
+      margin-bottom: 0.4rem;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    display: block;
+    .circle{
+        display: block;
+    }
+    .lines1,
+    .lines2,
+    .lines3 {
+      display: block;
+    }
+  }
+}

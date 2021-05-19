@@ -1,0 +1,159 @@
+.fullpage {
+  @media screen and (max-width: 1200px) {
+    width: 80%;
+  }
+}
+
+.ContactItem {
+  width: 100%;
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    background-color: #191d2b;
+    padding: 1rem 1rem;
+    .right-items {
+      margin-left: 2rem;
+      @media screen and (max-width: 1200px) {
+        font-size: 1rem;
+      }
+      h6 {
+        text-decoration: underline;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #037fff;
+        @media screen and (max-width: 1200px) {
+          font-size: 1rem;
+        }
+      }
+      p {
+        @media screen and (max-width: 1200px) {
+          font-size: 1rem;
+        }
+        font-size: 1.2rem;
+      }
+    }
+    img {
+      padding: 1rem;
+      border: 1px solid #2e344e;
+      margin-left: 2rem;
+    }
+  }
+}
+
+.contactPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 6rem;
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1rem;
+    max-width: 80%;
+    .map-sect {
+      width: 80%;
+      height: 50vh;
+      margin-bottom: 1rem;
+    }
+
+    .contact-sect {
+      width: 60%;
+    }
+  }
+
+  .contact-sect {
+    width: 100%;
+  }
+}
+
+.map-sect {
+  width: 90%;
+  padding: 1rem;
+  background-color: #191d2b;
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.contact-sect {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.tithe {
+  margin-bottom: 3rem;
+}
+
+.form-body {
+  display: grid;
+  place-content: center;
+  width: fit-content;
+
+  .comon {
+    margin-top: 3rem;
+    color: white;
+    @media screen and (max-width: 1200px) {
+      margin-top: 4rem;
+      font-size: 2rem;
+    }
+  }
+
+  .form {
+    margin: 3rem 0 4rem 5rem;
+    height: 40vh;
+    width: 60%;
+    background: #191d2b;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 10px #2e344e;
+    border-radius: 10px;
+    padding: 1rem;
+    @media screen and (max-width: 900px) {
+      width: fit-content;
+    }
+    .name{
+      padding: .5rem;
+      display: block;
+      background-color: white;
+      margin: .5rem 0;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+    }
+    .massage{
+      padding: 2rem 1rem;
+    }
+    .btn-n{
+      display: flex;
+      padding: .5rem;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+         height: 3rem;
+         width: 6rem;
+         margin-left: 6rem;
+         border: none;
+         border-radius: 5px;
+         background-color: palevioletred;
+         color: white;
+         font-size: 1rem;
+         &:hover{
+           background-color: #037fff;
+         }
+
+         @media screen and (max-width: 1200px) {
+           margin-left: 5rem
+         }
+    }
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
+}
