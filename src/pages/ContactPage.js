@@ -15,7 +15,7 @@ function ContactPage() {
             </div>
             <div className="contactPage">
                 <div className="map-sect">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.247451448899!2d7.017474116989206!3d4.759257878513678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cbec8298e313%3A0xf1f577839d1b2bd!2sPort%20Harcourt%20Town%2C%20Old%20Port%20Harcourt%20Twp%2C%20Port%20Harcourt!5e0!3m2!1sen!2sng!4v1615066703294!5m2!1sen!2sng" width="600" height="450" style={{border:0}} allowfullScreen="iframe" loading="fast"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.247451448899!2d7.017474116989206!3d4.759257878513678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cbec8298e313%3A0xf1f577839d1b2bd!2sPort%20Harcourt%20Town%2C%20Old%20Port%20Harcourt%20Twp%2C%20Port%20Harcourt!5e0!3m2!1sen!2sng!4v1615066703294!5m2!1sen!2sng" width="600" height="450" style={{border:0}} allowfullScreen="iframe" loading="fast" title="map"></iframe>
                 </div>
                 <div className="contact-sect">
                     <ContactItem icon={phone} text1={'+234 7064304592'} title={'Phone'} />

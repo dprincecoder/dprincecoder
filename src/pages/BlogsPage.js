@@ -16,7 +16,7 @@ function BlogsPage() {
                                 <div className="inside">
                                     <img src={blog.image} alt="" />
                                 </div>
-                                <a href={blog.link} className="blog-link" target="_blank">{blog.title}</a>
+                                <a href={blog.link} className="blog-link">{blog.title}</a>
 
                             </div>
                         </div>

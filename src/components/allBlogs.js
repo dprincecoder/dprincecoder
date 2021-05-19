@@ -5,7 +5,7 @@ import blog4 from '../img/blog4.jpg';
 import blog5 from '../img/blog5.jpg';
 import blog6 from '../img/blog6.jpg';
 
-export default [
+export const blogItems = [
     {
         id: 1,
         image: blog1,
@@ -61,3 +61,5 @@ export default [
         year: '2021'
     }
 ];
+
+export default blogItems;
