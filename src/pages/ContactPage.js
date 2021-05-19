@@ -27,7 +27,8 @@ function ContactPage() {
             <div className="form-body">
                 <h3 className="comon">Want to hire me? then leave a massage, i will be in touch</h3>
                 
-                <form action="submit" className="form" netlify>
+                <form className="form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
                     <input type="text" className="name" placeholder="Enter name"/>
                     <input type="text" className="name" placeholder="Enter email"/>
                     <input type="text" className="name massage" placeholder="Leave a massage"/>
