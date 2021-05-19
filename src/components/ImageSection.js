@@ -1,6 +1,6 @@
 import React from 'react';
 import about from '../img/prince4.png';
-import MyCv from '../MyCv.pdf'
+import MyCv from '../mycv.pdf'
 
 
 function ImageSection() {
@@ -30,7 +30,7 @@ function ImageSection() {
                         <p>: Portharcout, Rivers State, Nigeria</p>
                     </div>
                 </div>
-                <a href={MyCv} download="MyCv.pdf" className="btn">Download CV</a>
+                <a href={MyCv} download="mycv.pdf" className="btn">Download CV</a>
           </div>
         </div>
     )
