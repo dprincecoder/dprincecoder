@@ -11,7 +11,8 @@ function ImageSection() {
             </div>
             <div className="about-info">
                 <h4 className="about-text">I am <span> Prince Azubuike </span></h4>
-                <p> Welcome to my portfolio, am a full stack web developer. A born indigene of Umuahia town, Abia State, Nigeria. </p>
+                <div className="aboutText">
+                    <p> Welcome to my portfolio, am a full stack web developer. from Umuahia town, Abia State, Nigeria. </p></div>
                 <div className="about-details">
                     <div className="left-section">
                         <p>Full Name</p>
@@ -27,7 +28,7 @@ function ImageSection() {
                         <p>: 28-August-1997</p>
                         <p>: Native Igbo and English</p>
                         <p>: Bsc, Waec and Fslc</p>
-                        <p>: Portharcout, Rivers State, Nigeria</p>
+                        <p>: Portharcout, Rivers, Nigeria</p>
                     </div>
                 </div>
                 <a href={MyCv} download="mycv.pdf" className="btn">Download CV</a>

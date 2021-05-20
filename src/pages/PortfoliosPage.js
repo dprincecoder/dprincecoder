@@ -9,13 +9,13 @@ const allCategories = ['All', ...new Set(portfolios.map(Item => Item.category))]
 
 
 function PortfoliosPage() {
-    const [categories, setCategories] = useState(allCategories);
+    const [categories] = useState(allCategories);
     const [menuItems, setMenuItems] = useState(portfolios);
 
     const filter = (category) => {
         if (category === 'All') {
             setMenuItems(portfolios)
-            setCategories();
+            // setCategories();
             return;
         }
     const filterData = portfolios.filter((Item)=>{

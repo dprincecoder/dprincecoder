@@ -25,6 +25,12 @@
     font-family: "Monoton";
   }
 }
+.welcome-note{
+  @media screen and (max-width: 700px) {
+    width: 84%;
+    text-align: center;
+  }
+}
 
 .h-sub-text {
   text-align: center;

@@ -1,4 +1,7 @@
 .fullpage {
+  @media screen and (max-width: 700px) {
+      margin-left: -2rem;
+    }
   @media screen and (max-width: 1200px) {
     width: 80%;
   }
@@ -32,6 +35,9 @@
         @media screen and (max-width: 1200px) {
           font-size: 1rem;
         }
+        @media screen and (max-width: 700px) {
+          font-size: .8rem;
+        }
         font-size: 1.2rem;
       }
     }
@@ -39,6 +45,10 @@
       padding: 1rem;
       border: 1px solid #2e344e;
       margin-left: 2rem;
+      @media screen and (max-width: 700px) {
+      padding: .5rem;
+      margin-left: 1rem;
+    }
     }
   }
 }
@@ -48,22 +58,29 @@
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 6rem;
   @media screen and (max-width: 1200px) {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     font-size: 1rem;
     max-width: 80%;
     .map-sect {
       width: 80%;
       height: 50vh;
       margin-bottom: 1rem;
+      @media screen and (max-width: 700px) {
+        width: 100%;
+       }
     }
 
     .contact-sect {
       width: 60%;
     }
   }
-
+  
   .contact-sect {
     width: 100%;
+    @media screen and (max-width: 700px) {
+    font-size: .5rem;
+    max-width: 100%;
+  }
   }
 }
 
@@ -95,6 +112,9 @@
   .comon {
     margin-top: 3rem;
     color: white;
+    @media screen and (max-width: 700px) {
+      font-size: .5rem;
+    }
     @media screen and (max-width: 1200px) {
       margin-top: 4rem;
       font-size: 2rem;
@@ -113,6 +133,11 @@
     box-shadow: 0px 0px 0px 10px #2e344e;
     border-radius: 10px;
     padding: 1rem;
+    @media screen and (max-width: 700px) {
+      width: fit-content;
+      height: 35vh;
+      margin-left: -.5rem;
+    }
     @media screen and (max-width: 900px) {
       width: fit-content;
     }

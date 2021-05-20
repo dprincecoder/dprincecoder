@@ -11,7 +11,8 @@ function homePage() {
         <div className="homePage">
             <h1 className="fancy">PRINCE AZUBUIKE</h1>
             <header className="hero">
-                <h1 className="hero-text">
+                <div className="welcome-note">
+                       <h1 className="hero-text">
                     Hi 
                      Welcome
                 </h1>
@@ -22,6 +23,7 @@ function homePage() {
                 <div className="story">
                     <h4>learning new things, new technology is my utermost desire, i love to explore the mouintains at my free time, am open to work. contact me via social media below</h4>
                 </div>
+             </div>
                 <div className="icons">
                     <a href="https://web.facebook.com/prince.azubuike.5621" className="icon-holder" >
                         <FontAwesomeIcon icon={faFacebook} className="icon fa"/>
