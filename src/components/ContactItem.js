@@ -7,8 +7,8 @@ function ContactItem({icon, text1, text2, title}) {
                 <img src={icon} alt="" />
                 <div className="right-items">
                      <h6>{title}</h6>
-                     <p>{text1}</p>
-                      <p>{text2}</p>
+                     <a href="azubuike070@gmail.com"><p>{text1}</p></a>
+                      <a href="dprincemedia@outlook.com"><p>{text2}</p></a>
                 </div>
             </div>
            
