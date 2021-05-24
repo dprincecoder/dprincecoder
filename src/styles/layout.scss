@@ -107,10 +107,17 @@
       margin-bottom: 0.4rem;
     }
   }
-  @media screen and (max-width: 700px) {
+    @media screen and (max-width: 700px){
+    margin-left: -2rem !important; 
+    display: block !important; 
+    position: fixed !important;
+      .circle{
+        display: block !important;
+      }
+  }
+  @media screen and (max-width: 1200px) {
     display: block;
     position: fixed;
-    width: 4.5rem;
     .circle{
         display: block;
     }
