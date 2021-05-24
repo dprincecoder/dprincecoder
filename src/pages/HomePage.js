@@ -3,6 +3,14 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Typical from 'react-typical';
+import drible from '../img/Dribbble_logo.png';
+import fblogo from '../img/fb-logo.png';
+import freecode from '../img/freecode.png';
+import iglogo from '../img/ig.jpg';
+import twitter from '../img/twitter-logo-4.png';
+import udemy from '../img/udemy-2-logo.png';
+import youtbe from '../img/youtube.png';
 
 
 function homePage() {
@@ -10,6 +18,20 @@ function homePage() {
     
         <div className="homePage">
             <h1 className="fancy">PRINCE AZUBUIKE</h1>
+              <div className="typical">
+                <Typical loop={Infinity} wrapper="b"
+                    steps={[
+                        "Front-End developer for now 😊 💫💖",
+                        1000,
+                        "Full-Stack developer my goal 🚀 🎀🎇",
+                        1000,
+                        "Mobile Developer as to enhance my skills 📱📲💻", 
+                        1000,
+                        "Embbeded System developer my end point🚦🌌✨",
+                        1000
+                    ]}
+                />
+                </div>
             <header className="hero">
                 <div className="welcome-note">
                        <h1 className="hero-text">
@@ -42,6 +64,55 @@ function homePage() {
                     </a>
                 </div>
             </header>
+            <div className="community-head">
+            <h4>Am greatful to be part of these community:</h4>
+            <div className="community">
+                <div className="slider-track animate">
+                    <div className="slide">
+                        <img className="community-img" src={drible}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={fblogo}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={freecode}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={iglogo}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={twitter}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={udemy}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={youtbe}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={drible}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={fblogo}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={freecode}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={iglogo}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={twitter}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={udemy}/>
+                    </div>
+                    <div className="slide">
+                        <img className="community-img" src={youtbe}/>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
       
     )
