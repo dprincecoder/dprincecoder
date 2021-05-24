@@ -69,46 +69,46 @@ function homePage() {
             <div className="community">
                 <div className="slider-track animate">
                     <div className="slide">
-                        <img className="community-img" src={drible}/>
+                        <img className="community-img" src={drible} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={fblogo}/>
+                        <img className="community-img" src={fblogo} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={freecode}/>
+                        <img className="community-img" src={freecode} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={iglogo}/>
+                        <img className="community-img" src={iglogo} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={twitter}/>
+                        <img className="community-img" src={twitter} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={udemy}/>
+                        <img className="community-img" src={udemy} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={youtbe}/>
+                        <img className="community-img" src={youtbe} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={drible}/>
+                        <img className="community-img" src={drible} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={fblogo}/>
+                        <img className="community-img" src={fblogo} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={freecode}/>
+                        <img className="community-img" src={freecode} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={iglogo}/>
+                        <img className="community-img" src={iglogo} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={twitter}/>
+                        <img className="community-img" src={twitter} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={udemy}/>
+                        <img className="community-img" src={udemy} alt="community logos"/>
                     </div>
                     <div className="slide">
-                        <img className="community-img" src={youtbe}/>
+                        <img className="community-img" src={youtbe} alt="community logos"/>
                     </div>
                 </div>
             </div>
