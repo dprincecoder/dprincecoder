@@ -39,11 +39,27 @@
   @media screen and (max-width: 700px) {
     width: 84%;
     text-align: center;
+    .story{
+      text-align: center;
+      margin-left: 2rem;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    width: 95%;
+    text-align: center;
+    .story{
+      text-align: center;
+      margin-left: 2rem;
+    }
   }
 }
 
 .h-sub-text {
   text-align: center;
+  @media screen and (max-width: 700px) {
+    text-align: center;
+    margin-left: 1rem;
+  }
 }
 
 .icons {
@@ -78,7 +94,14 @@
 
 .community-head{
   margin-top: 2rem;
+  @media screen and (max-width: 700px) {
+    text-align: center;
+  }
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+  }
 }
+
 h4{
   margin-bottom: 1rem;
 }
@@ -92,6 +115,10 @@ h4{
   margin: auto;
   box-shadow: 4px 5px 10px 5px black;
   border-radius: 10px;
+  @media screen and(max-width: 700px){
+    width: 600px;
+    height: 80px;
+  }
 }
 
 .community::before, .community::after{
