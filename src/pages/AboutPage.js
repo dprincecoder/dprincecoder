@@ -27,7 +27,7 @@ function AboutPage() {
                   <SkillsSetion skill={'Git Bash'} progress={'50%'} width={'50%'}/>
                   <SkillsSetion skill={'Version Control'} progress={'70%'} width={'70%'}/>
                   <SkillsSetion skill={'Python'} progress={'40%'} width={'40%'}/>
-                  <SkillsSetion skill={'Saas'} progress={'75%'} width={'75%'}/>
+                  <SkillsSetion skill={'Sass'} progress={'75%'} width={'75%'}/>
                   <SkillsSetion skill={'Firebase'} progress={'40%'} width={'40%'}/>
                   <SkillsSetion skill={'MongoDB'} progress={'55%'} width={'55%'}/>
             </div>
