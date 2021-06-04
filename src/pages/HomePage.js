@@ -50,7 +50,7 @@ function homePage() {
                     <a href="https://web.facebook.com/prince.azubuike.5621" className="icon-holder" >
                         <FontAwesomeIcon icon={faFacebook} className="icon fa"/>
                     </a>
-                    <a href="https://github.com/Dprince-corporation" className="icon-holder" >
+                    <a href="https://github.com/dprincecoder" className="icon-holder" >
                         <FontAwesomeIcon icon={faGithub} className="icon gt"/>
                     </a>
                     <a href="https://wa.link/r039kt" className="icon-holder" >
