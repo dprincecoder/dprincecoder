@@ -37,10 +37,14 @@
 }
 
 .contact {
-  text-decoration: none;
   text-align: center; 
   margin: 1rem;
-  padding: 3px; 
+  padding: 3px;
+  font-size: 1.5rem;
+   a {
+    text-decoration: none; 
+     color: #037fff;
+   }
   }
 .welcome-note{
   @media screen and (max-width: 700px) {
