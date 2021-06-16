@@ -35,6 +35,13 @@
     font-family: "Monoton";
   }
 }
+
+.contact {
+  text-decoration: none;
+  text-align: center; 
+  margin: 1rem;
+  padding: 3px; 
+  }
 .welcome-note{
   @media screen and (max-width: 700px) {
     width: 84%;
