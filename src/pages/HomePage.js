@@ -11,7 +11,7 @@ import iglogo from '../img/ig.jpg';
 import twitter from '../img/twitter-logo-4.png';
 import udemy from '../img/udemy-2-logo.png';
 import youtbe from '../img/youtube.png';
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function homePage() {
