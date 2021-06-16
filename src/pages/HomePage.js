@@ -11,6 +11,7 @@ import iglogo from '../img/ig.jpg';
 import twitter from '../img/twitter-logo-4.png';
 import udemy from '../img/udemy-2-logo.png';
 import youtbe from '../img/youtube.png';
+import Link from "react-router-dom";
 
 
 function homePage() {
@@ -39,11 +40,10 @@ function homePage() {
                      Welcome
                 </h1>
                 <p className="h-sub-text">
-                    To my portfolio, am a full stack web developer and mobile developer, basically <b>MERN STACK</b>.
-                    Am glad you are here TAKE A TOUR.
+                  I am a full stack web and mobile developer. My main stack is developing with <b> MERN.</b> Am glad you are here TAKE MY TOUR.
                 </p>
                 <div className="story">
-                    <h4>learning new things, new technology is my utermost desire, i love to explore the mouintains at my free time, am open to work. contact me via social media below</h4>
+                    <h4> I spend my days learning new technologies and coding as it is my life. I also love to explore the mountains in my free time. I am available for full-time, part-time or contract work. </h4>
                 </div>
              </div>
                 <div className="icons">
@@ -62,6 +62,9 @@ function homePage() {
                     <a href="https://twitter.com/DPrinceboi" className="icon-holder" >
                         <FontAwesomeIcon icon={faTwitter} className="icon ba"/>
                     </a>
+                </div>
+                <div className="contact">
+                    <Link to="/contact">Contact Me</Link>
                 </div>
             </header>
             <div className="community-head">
