@@ -27,7 +27,7 @@ function ImageSection() {
                         <p>: D-Prince</p>
                         <p>: 28-August-1997</p>
                         <p>: Native Igbo and English</p>
-                        <p>: Bsc, Waec and Fslc</p>
+                        <p>: Waec and Fslc</p>
                         <p>: Portharcout, Rivers, Nigeria</p>
                     </div>
                 </div>
