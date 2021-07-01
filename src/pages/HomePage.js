@@ -1,5 +1,5 @@
 import React from 'react';
-import { faFacebook, faInstagram, faTwitter, faLinkedIn } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
