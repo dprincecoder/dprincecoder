@@ -1,5 +1,5 @@
 import React from 'react';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faTwitter, faLinkedIn } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -47,20 +47,23 @@ function homePage() {
                 </div>
              </div>
                 <div className="icons">
-                    <a href="https://web.facebook.com/prince.azubuike.5621" className="icon-holder" >
+                    <a href="https://web.facebook.com/prince.azubuike.5621" className="icon-holder"  target="_blank" rel="noopener noreferrer>
                         <FontAwesomeIcon icon={faFacebook} className="icon fa"/>
                     </a>
-                    <a href="https://github.com/dprincecoder" className="icon-holder" >
+                    <a href="https://github.com/dprincecoder" className="icon-holder" target="_blank" rel="noopener noreferrer >
                         <FontAwesomeIcon icon={faGithub} className="icon gt"/>
                     </a>
                     <a href="https://wa.link/r039kt" className="icon-holder" >
                         <FontAwesomeIcon icon={faWhatsapp} className="icon wa"/>
                     </a>
-                    <a href="https://www.instagram.com/dprince_boi"  className="icon-holder">
+                    <a href="https://www.instagram.com/dprince_boi"  className="icon-holder" target="_blank" rel="noopener noreferrer>
                         <FontAwesomeIcon icon={faInstagram} className="icon sa"/>
                     </a>
-                    <a href="https://twitter.com/DPrinceboi" className="icon-holder" >
+                    <a href="https://twitter.com/DPrinceboi" className="icon-holder"  target="_blank" rel="noopener noreferrer>
                         <FontAwesomeIcon icon={faTwitter} className="icon ba"/>
+                    </a>
+                     <a href="https://www.linkedin.com/in/prince-azubuike-9067a719a/" className="icon-holder"  target="_blank" rel="noopener noreferrer>
+                        <FontAwesomeIcon icon={faLinkedIn} className="icon ln"/>
                     </a>
                 </div>
                 <div className="contact">
