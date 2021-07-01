@@ -47,14 +47,14 @@ const portfolios = [
     },
     {
         id: 5,
-        category: 'React Expense budget App',
-        link1: 'www.youtube.com',
-        link: 'https://github.com/Dprince-corporation/Expense-app-react/tree/master',
-        icon1: 'Y',
-        icon2: 'G',
+        category: 'Facebook clone',
+        link1: 'https://github.com/dprincecoder/facebook-clone-master-master',
+        link: 'https://facebook-clone-91cd5.web.app/',
+        icon1: 'F',
+        icon2: 'C',
         image: port6,
-        title: 'React Expense budget app',
-        text: 'As a worker having good budgeting system is ideal for maintaining dept, be in control of your savings.'
+        title: 'Facebook clone',
+        text: 'Prototype of the original facebook, but this my clone.'
     },
 ]
 
