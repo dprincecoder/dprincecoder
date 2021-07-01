@@ -2,7 +2,7 @@ import port1 from '../img/port1.jpg';
 import port2 from '../img/port2.jpg';
 import port3 from '../img/batery-bg.jpeg';
 import port4 from '../img/rest-app.jpg';
-import port6 from '../img/port6.jpeg';
+import port6 from '../img/facebook-clone.png';
 
 const portfolios = [
     {
