@@ -63,7 +63,7 @@ function homePage() {
                         <FontAwesomeIcon icon={faTwitter} className="icon ba"/>
                     </a>
                      <a href="https://www.linkedin.com/in/prince-azubuike-9067a719a/" className="icon-holder"  target="_blank" rel="noopener noreferrer" >
-                        <FontAwesomeIcon icon={faLinkedIn} className="icon ln"/>
+                        <FontAwesomeIcon icon={faLinkedin} className="icon ln"/>
                     </a>
                 </div>
                 <div className="contact">
