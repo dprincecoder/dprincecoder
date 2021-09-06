@@ -202,6 +202,8 @@ function homePage() {
 						</div>
 					</div>
 				</div>
+                          <p className="cypress"> https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg </p>
+
 			</div>
 		</div>
 	);
