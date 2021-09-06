@@ -202,7 +202,7 @@ function homePage() {
 						</div>
 					</div>
 				</div>
-                          <img className="cypress" src="https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg" />
+                          <img className="cypress" src="https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg" alt="cypress" />
 
 			</div>
 		</div>
