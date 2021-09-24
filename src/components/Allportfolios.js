@@ -7,13 +7,13 @@ import port6 from '../img/facebook-clone.png';
 const portfolios = [
     {
         id: 1,
-        category: 'TinX Quiz',
-        link: 'https://github.com/Dprince-corporation/TinX-jamb-quiz/tree/master',
+        category: 'E-commerce',
+        link: "https://ecommerce-web-fc5d7.web.app/",
         icon1: 'Q',
         icon2: 'C',
         image: port1,
-        title: 'TinX Quiz Challenge',
-        text: 'Challenge your self to a brain text'
+        title: 'E-commerce store',
+        text: 'My official e-commerce website'
     },
     {
         id: 2,
