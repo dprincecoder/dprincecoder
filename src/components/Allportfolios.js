@@ -1,4 +1,4 @@
-import port1 from '../img/port1.jpg';
+import port1 from '../img/Screenshot_2021-09-24-15-26-44.png;
 import port2 from '../img/port2.jpg';
 import port3 from '../img/batery-bg.jpeg';
 import port4 from '../img/rest-app.jpg';
