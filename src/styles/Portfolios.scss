@@ -142,7 +142,7 @@ $orange: hsl(50, 80%, 50%);
 		//   }
 		// }
 		.card {
-			// color: inherit;
+			color: inherit;
 			cursor: pointer;
 			width: calc(70% - 3rem);
 			min-width: calc(70% - 3rem);
@@ -180,7 +180,7 @@ $orange: hsl(50, 80%, 50%);
 
 		.front {
 			background-size: cover;
-			// background-blend-mode: overlay;
+			background-blend-mode: overlay;
 			padding: 2rem;
 			font-size: 1.618rem;
 			font-weight: 600;
@@ -204,29 +204,28 @@ $orange: hsl(50, 80%, 50%);
 				z-index: -1;
 			}
 		}
-		.card:hover & {
+		.card:hover .front {
 			transform: rotateY(180deg);
 		}
-		.card:nth-child(even):hover & {
+		.card:nth-child(even):hover div {
 			transform: rotateY(-180deg);
 		}
 
 		.back {
 			background: #fff;
-			transform: rotateY(-180deg);
+			transform: rotateY(-190deg);
 			padding: 0 2em;
+		}
+		.card:hover div {
+			transform: rotateY(0deg);
+		}
 
-			.card:hover & {
-				transform: rotateY(0deg);
-			}
+		.card:nth-child(even) {
+			transform: rotateY(180deg);
+		}
 
-			.card:nth-child(even) & {
-				transform: rotateY(180deg);
-			}
-
-			.card:nth-child(even):hover & {
-				transform: rotateY(0deg);
-			}
+		.card:nth-child(even):hover {
+			transform: rotateY(0deg);
 		}
 	}
 }
