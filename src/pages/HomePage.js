@@ -97,13 +97,6 @@ function homePage() {
 				<div className="contact">
 					<Link to="/contact">Contact Me</Link>
 <br/>
-						<!--
-    PeoplePerHour Profile Widget
-    The div#pph-hire me is the element
-    where the iframe will be inserted.
-    You may move this element wherever
-    you need to display the widget
--->
 <div id="pph-hireme"></div>
 <script type="text/javascript">
 (function(d, s) {
