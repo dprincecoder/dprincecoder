@@ -96,6 +96,8 @@ function homePage() {
 				</div>
 				<div className="contact">
 					<Link to="/contact">Contact Me</Link>
+                                        <br />
+                                        <div id="pph-hireme"></div>
 				</div>
 			</header>
 			<div className="community-head">
