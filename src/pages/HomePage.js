@@ -203,17 +203,6 @@ function homePage() {
 					</div>
 				</div>
                           <img className="cypress" src="https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg" alt="cypress" />
-<br/>
-<div id="pph-hireme"></div>
-<script type="text/javascript">
-(function(d, s) {
-    var useSSL = 'https:' == document.location.protocol
-    var js, where = d.getElementsByTagName(s)[0],
-    js = d.createElement(s);
-    js.src = (useSSL ? 'https:' : 'http:') +  '//www.peopleperhour.com/hire/3787272645/5923984.js?width=245&height=320&orientation=vertical&theme=light&rnd='+parseInt(Math.random()*10000, 10);
-    try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
-}(document, 'script'));
-</script>
 			</div>
 		</div>
 	);
