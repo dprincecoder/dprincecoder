@@ -96,8 +96,7 @@ function homePage() {
 				</div>
 				<div className="contact">
 					<Link to="/contact">Contact Me</Link>
-                                        <br />
-                                        <div id="pph-hireme"></div>
+					<div id="pph-hireme"></div>
 				</div>
 			</header>
 			<div className="community-head">
@@ -204,7 +203,11 @@ function homePage() {
 						</div>
 					</div>
 				</div>
-                          <img className="cypress" src="https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg" alt="cypress" />
+				<img
+					className="cypress"
+					src="https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg"
+					alt="cypress"
+				/>
 			</div>
 		</div>
 	);
