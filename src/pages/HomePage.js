@@ -48,8 +48,7 @@ function homePage() {
 					<div className="story">
 						<h4>
 							{" "}
-							I spend my days learning new technologies and coding as it is my
-							life. I also love to explore the mountains in my free time. I am
+							I’ve had the opportunity to work on a number of incredible projects that I’m pleased to share. Not only do I enjoy showcasing my work, but also share details about the creative process behind each project. Feel free to browse through my portfolio, and get in touch if you have a project in mind that you’d like to explore together. I am
 							available for full-time, part-time or contract work.{" "}
 						</h4>
 					</div>
