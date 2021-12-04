@@ -100,7 +100,7 @@ function homePage() {
 				</div>
 			</header>
 			<div className="community-head">
-				<h4>Am greatful to be part of these community:</h4>
+				<h4>Am Great full to be part of these community:</h4>
 				<div className="community">
 					<div className="slider-track animate">
 						<div className="slide">
