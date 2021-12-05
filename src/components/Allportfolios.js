@@ -3,6 +3,8 @@ import port2 from "../img/port2.jpg";
 import port3 from "../img/batery-bg.jpeg";
 import port4 from "../img/rest-app.jpg";
 import port6 from "../img/facebook-clone.png";
+import port7 from "../img/transcriber.png";
+import port8 from "../img/home-finder.png";
 
 const portfolios = [
 	{
@@ -64,6 +66,31 @@ const portfolios = [
 		text: "Prototype of the original facebook, but this my clone.",
 		tools:
 			"App built using React-hooks Redux, Redux-hooks, Redux-saga, firebase, graphql, firebase cloud database, and facebook SDK",
+	},
+	{
+		id: 6,
+		category: "language translation",
+		link1: "https://github.com/dprincecoder/transcriber/tree/master",
+		link: "https://transcriber056.web.app/",
+		icon1: "F",
+		icon2: "C",
+		image: port7,
+		title: "Transriber language translation",
+		text: "Transcriber is a language translation app, use it to translate your language to english and other languages.",
+		tools:
+			"App built using React-hooks firebase, firebase cloud hostinf, and translate api",
+	},
+	{
+		id: 7,
+		category: "home finder landing page",
+		link1: "https://github.com/dprincecoder/home-finder/tree/main",
+		link: "https://home-finder-theta.vercel.app/",
+		icon1: "F",
+		icon2: "C",
+		image: port8,
+		title: "Home finder landing page",
+		text: "Home finder is a real estate app, use it to find your dream home.",
+		tools: "app built using nextjs rapid api, varcel hosting, chackra-ui",
 	},
 ];
 
