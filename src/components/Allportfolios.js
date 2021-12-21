@@ -5,6 +5,7 @@ import port4 from "../img/rest-app.jpg";
 import port6 from "../img/facebook-clone.png";
 import port7 from "../img/transcriber.png";
 import port8 from "../img/home-finder.png";
+import port9 from "../img/storybook.png";
 
 const portfolios = [
 	{
@@ -91,6 +92,19 @@ const portfolios = [
 		title: "Home finder landing page",
 		text: "Home finder is a real estate app, use it to find your dream home.",
 		tools: "app built using nextjs rapid api, varcel hosting, chackra-ui",
+	},
+	{
+		id: 8,
+		category: "Storybook full stack social media web app",
+		link1: "",
+		link: "https://www.storybook-04.web.app/",
+		icon1: "F",
+		icon2: "C",
+		image: port9,
+		title: "Storybook full stack social media web app",
+		text: "Storybook is a full stack social media web app. Create your own story and share it with your friends, and also engage with your followers, in real time. instant messaging, voice chat and more. Bring your friends and family to your story, and see what they have to say.",
+		tools:
+			"App built using react, redux, redux-saga, react-hooks, firebase, firebase cloud hosting, firebase functioins, youtube data api, scss, and express nodejs, javascript, and graphql",
 	},
 ];
 
