@@ -173,7 +173,12 @@ h4{
 .community-img{
   width: 150px;
   height: 70px;
+   @media screen and(max-width: 700px){
+    width: 80px;
+    height: 50px;
+  }
   border-radius: 15px;
+
 }
 
 @keyframes scroll {
@@ -187,5 +192,6 @@ h4{
 }
 
 .cypress {
-  margin: 2rem .5rem 0 45rem;
+  margin: 2rem .5rem 0;
+  float: right;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../img/prince4.png';
+import about from '../img/prince3.jpg';
 import MyCv from '../components/myCv.pdf';
 
 
@@ -10,7 +10,7 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4 className="about-text">I am <span> Prince Azubuike </span></h4>
+                <h4 className="about-name">I am <span> Prince Azubuike </span></h4>
                 <div className="aboutText">
                     <p> Welcome to my portfolio, am a full stack web developer. from Umuahia town, Abia State, Nigeria. </p></div>
                 <div className="about-details">
