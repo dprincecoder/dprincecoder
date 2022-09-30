@@ -1,4 +1,4 @@
-<img align='center' alt='coding' width='100%' src='https://tinyurl.com/22z569k9'>
+<img align='center' alt='coding' width='100%' height="250px" src='https://tinyurl.com/22z569k9'>
 
 <h1 align="center">Hi 👋, I'm Prince Azubuike</h1>
 <h3 align="center">A passionate frontend developer from Nigeria</h3>
