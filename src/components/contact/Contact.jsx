@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./contact.css";
-import { MdFmdGood, MdOutlineEmail } from "react-icons/md";
+import {  MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsPatchCheckFill } from "react-icons/bs";

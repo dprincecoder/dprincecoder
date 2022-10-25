@@ -7,7 +7,7 @@ import {
   Nav,
   Portfolio,
   Services,
-  Testimonials,
+  // Testimonials,
 } from "./components";
 
 function App() {
