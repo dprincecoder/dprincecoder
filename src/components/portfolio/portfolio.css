@@ -1,0 +1,124 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  position: relative;
+}
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding-bottom: 1rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 2rem 2rem;
+  -webkit-border-radius: 0 0 2rem 2rem;
+  -moz-border-radius: 0 0 2rem 2rem;
+  -ms-border-radius: 0 0 2rem 2rem;
+  -o-border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.portfolio__item-img {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.portfolio__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio__item h3 {
+  margin: 1rem 0;
+  background: var(--color-bg);
+  text-align: center;
+  font-size: 15px;
+}
+
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0 1.3rem;
+}
+
+.portfolio__item-tags {
+  /* margin: 1rem; */
+  /* padding: 0.5rem; */
+  width: 100%;
+  transition: var(--transition);
+}
+
+.portfolio__item-img .swiper-button-prev,
+.swiper-button-next {
+  font-size: 30px !important;
+}
+
+.portfolio__item-img .swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
+}
+
+.portfolio__item-tags-name {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.cour {
+  color: var(--color-light);
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.portfolio__item-tags-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  padding: 0 2rem 0 1rem;
+  overflow-y: scroll;
+  height: 100px;
+}
+
+.portfolio__item-desc {
+  /* height: 100px; */
+  overflow-y: scroll;
+  font-size: 12px;
+  padding: 0 1rem;
+}
+.portfolio__item-tags-listItem {
+  background: var(--color-bg);
+  padding: 4px;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
+  font-size: 12px;
+}
+
+/* ===============  MEDIA QUERIES (MEDIUM DEVICES)  ============ */
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* ===============  MEDIA QUERIES (SMALL DEVICES)  ============ */
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

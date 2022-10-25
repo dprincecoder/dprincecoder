@@ -1,0 +1,138 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  /* overflow: hidden; */
+}
+
+.header-container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/* ==========  CTA  ======== */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* ==========  SOCIALS ======== */
+.header-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header-socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+
+  background-color: var(--color-primary);
+}
+
+/* ==========  ME  ======== */
+.me {
+  width: 22rem;
+  height: fit-content;
+  /* position: absolute; */
+  margin-left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  -webkit-border-radius: 12rem 12rem 0 0;
+  -moz-border-radius: 12rem 12rem 0 0;
+  -ms-border-radius: 12rem 12rem 0 0;
+  -o-border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  background: linear-gradient(var(--color-primary), transparent);
+}
+
+/* ==========  scroll  ======== */
+.scroll-down {
+  position: absolute;
+  right: -2.5rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+.anim {
+  animation: color 4s linear infinite;
+  -webkit-animation: color 4s linear infinite;
+}
+
+@keyframes color {
+  0% {
+    color: #a0d468;
+  }
+  20% {
+    color: #4fc1e9;
+  }
+  40% {
+    color: #ffce54;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    color: #790bc2;
+  }
+  100% {
+    color: #a36469;
+  }
+}
+@-moz-keyframes color {
+  0% {
+    color: #a0d468;
+  }
+  20% {
+    color: #4fc1e9;
+  }
+  40% {
+    color: #ffce54;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    color: #790bc2;
+  }
+  100% {
+    color: #a36469;
+  }
+}
+
+/* ===============  MEDIA QUERIES (MEDIUM DEVICES)  ============ */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 100% !important;
+  }
+}
+
+/* ===============  MEDIA QUERIES (SMALL DEVICES)  ============ */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header-socials {
+    flex-direction: initial;
+    top: 0;
+    left: 35%;
+    margin: 2rem 0;
+  }
+  .scroll-down {
+    display: none;
+  }
+}
